@@ -10,7 +10,8 @@ class School
       roster[grade][name]<<name
     else
       roster[grade]<<name
-    end#unless roster[grade].include? "#{grade}"
+    end
+    roster[grade]#unless roster[grade].include? "#{grade}"
   end
 
 end
