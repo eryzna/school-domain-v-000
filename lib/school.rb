@@ -9,7 +9,7 @@ class School
     roster[grade]<<name
   end
   def grade(grade)
-    grade.values
+    roster[grade].values
   end
 
 end
