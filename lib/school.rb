@@ -8,6 +8,8 @@ class School
     roster[grade]=[]
     if roster[grade].include? "#{grade}"
       roster[grade]<< name
+    else
+      roster[grade]<< name
     end#unless roster[grade].include? "#{grade}"
   end
 
