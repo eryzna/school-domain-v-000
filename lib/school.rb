@@ -9,6 +9,7 @@ class School
     roster[grade]<<name
   end
   def grade(grade)
-    roster.values_at (grade)
+    puts roster[grade].values_at
+  end
 
 end
